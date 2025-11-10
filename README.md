@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+![Header](./github-header-banner.png)
+
 <!--
 **ismandre/ismandre** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
