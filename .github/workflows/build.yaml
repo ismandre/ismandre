@@ -1,34 +1,57 @@
 name: README build
+
+# When to run the workflow
 on:
   push:
     branches:
-      - main
+      - main           # Run when you push to the main branch
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "0 4 * * *" # Also run every day at 04:00 UTC
+
+# Explicit permissions (some steps need write access)
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
+      # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
           fetch-depth: 1
-      - name: Get Python 3.8
+
+      # 2️⃣ Setup Python
+      - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
           python-version: '3.8'
+
+      # 5️⃣ Run your update script
       - name: Update README file
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
+
+      # 6️⃣ Commit and push changes
       - name: Commit and push changes
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ secrets.USER_NAME }}
         run: |
+          # Configure Git identity
           git config --global user.name "${USER_NAME}"
           git config --global user.email "${USER_NAME}@users.noreply.github.com"
+
+          # Stage and commit changes (skip if none)
           git add .
           git commit -m "Updated README" -a || echo "No changes to commit"
-          # Force push to use the PAT for authentication
-          git remote set-url origin https://${USER_NAME}:${ACCESS_TOKEN}@github.com/${USER_NAME}/${USER_NAME}.git
-          git push origin HEAD:main
 
+          # Overwrite the origin URL to use your PAT instead of github-actions[bot]
+          git remote set-url origin https://${USER_NAME}:${ACCESS_TOKEN}@github.com/${USER_NAME}/${USER_NAME}.git
+
+          # Push to main branch using the new remote
+          git push origin HEAD:main
