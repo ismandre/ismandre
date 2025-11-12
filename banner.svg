@@ -17,7 +17,7 @@ size-adjust: 109%;
 text, tspan {white-space: pre;}
 .ascii {fill: #00FF66}
 </style>
-<rect width="985px" height="545px" fill="#282828" rx="15"/>
+<rect width="985px" height="545px" fill="#090901" rx="15"/>
 
 <text x="15" y="30" fill="#00FF66" class="ascii">
 <tspan x="15" y="30" >             *,/,,.,,/#(                   </tspan>
