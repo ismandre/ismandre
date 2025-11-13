@@ -30,7 +30,7 @@ jobs:
           python-version: '3.8'
 
       - name: Install dependencies
-        run: python -m pip install dateutil
+        run: python -m pip install python-dateutil
 
       # 5️⃣ Run your update script
       - name: Update README file
