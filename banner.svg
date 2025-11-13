@@ -1,11 +1,29 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="620px" font-size="16px">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="520px" font-size="16px">
 
 <style>
 :root {
     --spring-green-color: #12fc87;
     --malachite-color: #0fcb6b;
     --salem-color: #09713c;
+
+    --rect-01-01-color: #041b0f;
+    --rect-01-02-color: #08743e;
+    --rect-01-03-color: #0dac58;
+    --rect-01-04-color: #13f782;
+    --rect-01-05-color: #0c8646;
+    --rect-01-06-color: #0c7840;
+    --rect-01-07-color: #0ab45b;
+    --rect-01-08-color: #0ab45b;
+
+    --rect-02-01-color: #08753d;
+    --rect-02-02-color: #0a924f;
+    --rect-02-03-color: #13eb7c;
+    --rect-02-04-color: #11ff8b;
+    --rect-02-05-color: #11db6f;
+    --rect-02-06-color: #0db25f;
+    --rect-02-07-color: #0ffc83;
+    --rect-02-08-color: #15ff89;
 }
 @font-face {
     src: local('Consolas'), local('Consolas Bold');
@@ -20,7 +38,25 @@
 .username {fill: var(--salem-color)}
 .hostname {fill: var(--salem-color)}
 .divider {fill: var(--malachite-color)}
+    
+.rect-01-01 {fill: var(--rect-01-01-color)}
+.rect-01-02 {fill: var(--rect-01-02-color)}
+.rect-01-03 {fill: var(--rect-01-03-color)}
+.rect-01-04 {fill: var(--rect-01-04-color)}
+.rect-01-05 {fill: var(--rect-01-05-color)}
+.rect-01-06 {fill: var(--rect-01-06-color)}
+.rect-01-07 {fill: var(--rect-01-07-color)}
+.rect-01-08 {fill: var(--rect-01-08-color)}
+.rect-02-01 {fill: var(--rect-02-01-color)}
+.rect-02-02 {fill: var(--rect-02-02-color)}
+.rect-02-03 {fill: var(--rect-02-03-color)}
+.rect-02-04 {fill: var(--rect-02-04-color)}
+.rect-02-05 {fill: var(--rect-02-05-color)}
+.rect-02-06 {fill: var(--rect-02-06-color)}
+.rect-02-07 {fill: var(--rect-02-07-color)}
+.rect-02-08 {fill: var(--rect-02-08-color)}
 
+    
 .key {fill: var(--salem-color)}
 .value {fill: var(--malachite-color)}
 .addColor {fill: var(--malachite-color)}
@@ -29,60 +65,79 @@
 text, tspan {white-space: pre;}
 .ascii {fill: var(--salem-color)}
 </style>
-<rect width="985px" height="620px" fill="#090901" rx="15" />
+<rect width="985px" height="520px" fill="#090901" rx="15"/>
 
 <text x="15" y="30" class="ascii">
 <tspan x="15" y="30" class="command-line">marko@neokken $ neofetch</tspan>
-<tspan x="15" y="60">             *,/,,.,,/#(                   </tspan>
-<tspan x="15" y="85">        /,.................(               </tspan>
-<tspan x="15" y="110">     (..........        ..../(             </tspan>
-<tspan x="15" y="135">     ....... .   .         ....#           </tspan>
-<tspan x="15" y="160">    /......   .             ....#          </tspan>
-<tspan x="15" y="185">    ............,,*******,,.....,          </tspan>
-<tspan x="15" y="210">   /.....,/(###%%%%%%####(((/*...#         </tspan>
-<tspan x="15" y="235">   *.,*//((####%%%%%######(((/...(         </tspan>
-<tspan x="15" y="260">   ,.*//(((######%%%%#####(((/*..#         </tspan>
-<tspan x="15" y="285">   ..//.......*(####(*......///..          </tspan>
-<tspan x="15" y="310">**/,,/**,....,,*/##(*.,..,,*,*/.,          </tspan>
-<tspan x="15" y="335">(/(**/(((///((((((#(((//////((/.//*(       </tspan>
-<tspan x="15" y="360">((*///(((#####((((#(((#####(((/,*((#       </tspan>
-<tspan x="15" y="385">  ((/*//(((####//(###(/(####((/*//((        </tspan>
-<tspan x="15" y="410">     #/*//((##(/*,,,,,((#(((///*((          </tspan>
-<tspan x="15" y="435">      /**//((((((/((((((//(////             </tspan>
-<tspan x="15" y="460">      #****/(((////////(((/////             </tspan>
-<tspan x="15" y="485">        ****///(((//(((((///*/              </tspan>
-<tspan x="15" y="510">        /**,,**//(((((//*,,*/(              </tspan>
-<tspan x="15" y="535">        ///**,,..,...,.,,*/(((              </tspan>
-<tspan x="15" y="560">      #/////****,...,,*//((((((             </tspan>
-<tspan x="15" y="600" class="command-line">marko@neokken $</tspan>
+<tspan x="15" y="60" >             *,/,,.,,/#(                   </tspan>
+<tspan x="15" y="80" >        /,.................(               </tspan>
+<tspan x="15" y="100" >     (..........        ..../(             </tspan>
+<tspan x="15" y="120" >     ....... .   .         ....#           </tspan>
+<tspan x="15" y="140">    /......   .             ....#          </tspan>
+<tspan x="15" y="160">    ............,,*******,,.....,          </tspan>
+<tspan x="15" y="180">   /.....,/(###%%%%%%####(((/*...#         </tspan>
+<tspan x="15" y="200">   *.,*//((####%%%%%######(((/...(         </tspan>
+<tspan x="15" y="220">   ,.*//(((######%%%%#####(((/*..#         </tspan>
+<tspan x="15" y="240">   ..//.......*(####(*......///..          </tspan>
+<tspan x="15" y="260">**/,,/**,....,,*/##(*.,..,,*,*/.,          </tspan>
+<tspan x="15" y="280">(/(**/(((///((((((#(((//////((/.//*(       </tspan>
+<tspan x="15" y="300">((*///(((#####((((#(((#####(((/,*((#       </tspan>
+<tspan x="15" y="320">  ((/*//(((####//(###(/(####((/*//((        </tspan>
+<tspan x="15" y="340">     #/*//((##(/*,,,,,((#(((///*((          </tspan>
+<tspan x="15" y="360">      /**//((((((/((((((//(////             </tspan>
+<tspan x="15" y="380">      #****/(((////////(((/////             </tspan>
+<tspan x="15" y="400">        ****///(((//(((((///*/              </tspan>
+<tspan x="15" y="420">        /**,,**//(((((//*,,*/(              </tspan>
+<tspan x="15" y="440">        ///**,,..,...,.,,*/(((              </tspan>
+<tspan x="15" y="460">      #/////****,...,,*//((((((             </tspan>
+<tspan x="15" y="500" class="command-line">marko@neokken $</tspan>
 
 </text>
 
 
 <text x="390" y="30">
 <tspan x="390" y="55" class="username">marko</tspan><tspan class="at">@</tspan><tspan class="hostname">neokken</tspan>
-<tspan x="390" y="80" class="divider">-------------</tspan>
-<tspan x="390" y="105" class="cc">OS</tspan><tspan class="value">: Linux, MacOS</tspan>
-<tspan x="390" y="130" class="cc">Uptime</tspan><tspan class="value" id="age_data">: 26 years, 3 months, 27 days</tspan>
-<tspan x="390" y="155" class="cc">Host</tspan><tspan class="value">: DECODE HQ d.o.o.</tspan>
-<tspan x="390" y="180" class="cc">Kernel</tspan><tspan class="value">: Software Engineer</tspan>
-<tspan x="390" y="205" class="cc">IDE</tspan><tspan class="value">: PyCharm 2025.2.0.1, Cursor 2.0.64</tspan>
+<tspan x="390" y="75" class="divider">-------------</tspan>
+<tspan x="390" y="95" class="cc">OS</tspan><tspan class="value">: Linux, MacOS</tspan>
+<tspan x="390" y="115" class="cc">Uptime</tspan><tspan class="value" id="age_data">: 26 years, 3 months, 27 days</tspan>
+<tspan x="390" y="135" class="cc">Host</tspan><tspan class="value">: DECODE HQ d.o.o.</tspan>
+<tspan x="390" y="155" class="cc">Kernel</tspan><tspan class="value">: Software Engineer</tspan>
+<tspan x="390" y="175" class="cc">IDE</tspan><tspan class="value">: PyCharm 2025.2.0.1, Cursor 2.0.64</tspan>
 
-<tspan x="390" y="255" class="cc">Languages.Programming</tspan><tspan class="value">: Python, Java, JavaScript</tspan>
-<tspan x="390" y="280" class="cc">Languages.Computer</tspan><tspan class="value">: HTML, CSS, JSON, LaTeX, YAML</tspan>
-<tspan x="390" y="305" class="cc">Languages.Real</tspan><tspan class="value">: English, French, Spanish</tspan>
+<tspan x="390" y="195" class="cc">Languages.Programming</tspan><tspan class="value">: Python, Java, JavaScript</tspan>
+<tspan x="390" y="215" class="cc">Languages.Computer</tspan><tspan class="value">: HTML, CSS, JSON, LaTeX, YAML</tspan>
+<tspan x="390" y="235" class="cc">Languages.Real</tspan><tspan class="value">: English, French, Spanish</tspan>
 
-<tspan x="390" y="355" class="cc">Hobbies.Software</tspan><tspan class="value">: Football Data Analysis</tspan>
-<tspan x="390" y="380" class="cc">Hobbies.Hardware</tspan><tspan class="value">: GPS Trackers, Smartwear</tspan>
+<tspan x="390" y="255" class="cc">Hobbies.Software</tspan><tspan class="value">: Football Data Analysis</tspan>
+<tspan x="390" y="275" class="cc">Hobbies.Hardware</tspan><tspan class="value">: GPS Trackers, Smartwear</tspan>
 
-<tspan x="390" y="430" class="cc">Email.Personal</tspan><tspan class="value">: ismarkoandre@gmail.com</tspan>
-<tspan x="390" y="455" class="cc">Email.Work</tspan><tspan class="value">: marko.andreis@decode.agency</tspan>
-<tspan x="390" y="480" class="cc">LinkedIn</tspan><tspan class="value">: marko-andreis</tspan>
+<tspan x="390" y="295" class="cc">Email.Personal</tspan><tspan class="value">: ismarkoandre@gmail.com</tspan>
+<tspan x="390" y="315" class="cc">Email.Work</tspan><tspan class="value">: marko.andreis@decode.agency</tspan>
+<tspan x="390" y="335" class="cc">LinkedIn</tspan><tspan class="value">: marko-andreis</tspan>
 
-<tspan x="390" y="530" class="cc">Repos</tspan><tspan class="value" id="repo_data">: 34 {</tspan><tspan class="key">Contributed</tspan> <tspan class="value" id="contrib_data">: 0} | </tspan><tspan class="key">Stars</tspan><tspan class="value" id="star_data">: 0</tspan>
-<tspan x="390" y="555" class="cc">Commits</tspan><tspan class="value" id="commit_data">: 183 | </tspan><tspan class="key">Followers:</tspan><tspan class="cc" id="follower_data_dots"> ......... </tspan><tspan class="value" id="follower_data">0</tspan>
-<tspan x="390" y="580" class="cc">Lines of Code on GitHub</tspan><tspan class="value" id="loc_data">: 7,292 (</tspan> <tspan class="addColor" id="loc_add">2,374++, </tspan><tspan id="loc_del_dots" /><tspan class="delColor" id="loc_del">1,481</tspan><tspan class="delColor">-- )</tspan>
+<tspan x="390" y="355" class="cc">Repos</tspan><tspan class="value" id="repo_data">: 34 {</tspan><tspan class="key">Contributed</tspan> <tspan class="value" id="contrib_data">: 0} | </tspan><tspan class="key">Stars</tspan><tspan class="value" id="star_data">: 0</tspan>
+<tspan x="390" y="375" class="cc">Commits</tspan><tspan class="value" id="commit_data">: 183 | </tspan><tspan class="key">Followers:</tspan><tspan class="cc" id="follower_data_dots"> ......... </tspan><tspan class="value" id="follower_data">0</tspan>
+<tspan x="390" y="395" class="cc">Lines of Code on GitHub</tspan><tspan class="value" id="loc_data">: 7,292 (</tspan> <tspan class="addColor" id="loc_add">2,374++, </tspan><tspan id="loc_del_dots"></tspan><tspan class="delColor" id="loc_del">1,481</tspan><tspan class="delColor">-- )</tspan>
 </text>
+
+<rect x="390" y="430" width="25px" height="20px" class="rect-01-01"/>
+<rect x="415" y="430" width="25px" height="20px" class="rect-01-02"/>
+<rect x="440" y="430" width="25px" height="20px" class="rect-01-03"/>
+<rect x="465" y="430" width="25px" height="20px" class="rect-01-04"/>
+<rect x="490" y="430" width="25px" height="20px" class="rect-01-05"/>
+<rect x="515" y="430" width="25px" height="20px" class="rect-01-06"/>
+<rect x="540" y="430" width="25px" height="20px" class="rect-01-07"/>
+<rect x="565" y="430" width="25px" height="20px" class="rect-01-08"/>
+
+<rect x="390" y="450" width="25px" height="20px" class="rect-02-01"/>
+<rect x="415" y="450" width="25px" height="20px" class="rect-02-02"/>
+<rect x="440" y="450" width="25px" height="20px" class="rect-02-03"/>
+<rect x="465" y="450" width="25px" height="20px" class="rect-02-04"/>
+<rect x="490" y="450" width="25px" height="20px" class="rect-02-05"/>
+<rect x="515" y="450" width="25px" height="20px" class="rect-02-06"/>
+<rect x="540" y="450" width="25px" height="20px" class="rect-02-07"/>
+<rect x="565" y="450" width="25px" height="20px" class="rect-02-08"/>
+
 
 <defs>
 </defs>
