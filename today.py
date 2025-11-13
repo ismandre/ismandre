@@ -26,3 +26,20 @@ element = root.find(".//*[@id='age_data']", namespaces)
 if element is not None:
     element.text = ": " + uptime_text
     tree.write(output_file, encoding="utf-8", xml_declaration=True)
+
+
+
+input_file = "banner_light.svg"
+output_file = "banner_light.svg"
+
+ET.register_namespace("", "http://www.w3.org/2000/svg")
+
+tree = ET.parse(input_file)
+root = tree.getroot()
+
+namespaces = {"svg": "http://www.w3.org/2000/svg"}
+element = root.find(".//*[@id='age_data']", namespaces)
+
+if element is not None:
+    element.text = ": " + uptime_text
+    tree.write(output_file, encoding="utf-8", xml_declaration=True)
