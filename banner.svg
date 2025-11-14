@@ -68,7 +68,7 @@ text, tspan {white-space: pre;}
 <rect width="985px" height="520px" fill="#090901" rx="15" />
 
 <text x="15" y="30" class="ascii">
-<tspan x="15" y="30" class="command-line">marko@neokken $ whoami</tspan>
+<tspan x="15" y="30" class="command-line">marko@home $ whoami</tspan>
 <tspan x="15" y="60">             *,/,,.,,/#(                   </tspan>
 <tspan x="15" y="80">        /,.................(               </tspan>
 <tspan x="15" y="100">     (..........        ..../(             </tspan>
@@ -90,13 +90,13 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="420">        /**,,**//(((((//*,,*/(              </tspan>
 <tspan x="15" y="440">        ///**,,..,...,.,,*/(((              </tspan>
 <tspan x="15" y="460">      #/////****,...,,*//((((((             </tspan>
-<tspan x="15" y="500" class="command-line">marko@neokken $</tspan>
+<tspan x="15" y="500" class="command-line">marko@home $</tspan>
 
 </text>
 
 
 <text x="390" y="30">
-<tspan x="390" y="55" class="username">marko</tspan><tspan class="at">@</tspan><tspan class="hostname">neokken</tspan>
+<tspan x="390" y="55" class="username">marko</tspan><tspan class="at">@</tspan><tspan class="hostname">home</tspan>
 <tspan x="390" y="75" class="divider">-------------</tspan>
 <tspan x="390" y="95" class="cc">OS</tspan><tspan class="value">: Linux, MacOS</tspan>
 <tspan x="390" y="115" class="cc">Uptime</tspan><tspan class="value" id="age_data">: 26 years, 3 months, 28 days</tspan>
