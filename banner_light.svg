@@ -72,7 +72,7 @@ text, tspan {white-space: pre;}
 <rect width="985px" height="520px" class="background" rx="15" />
 
 <text x="15" y="30" class="ascii">
-<tspan x="15" y="30" class="command-line">marko@neokken $ neofetch</tspan>
+<tspan x="15" y="30" class="command-line">marko@neokken $ whoami</tspan>
 <tspan x="15" y="60">             *,/,,.,,/#(                   </tspan>
 <tspan x="15" y="80">        /,.................(               </tspan>
 <tspan x="15" y="100">     (..........        ..../(             </tspan>
