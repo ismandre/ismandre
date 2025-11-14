@@ -99,7 +99,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="55" class="username">marko</tspan><tspan class="at">@</tspan><tspan class="hostname">neokken</tspan>
 <tspan x="390" y="75" class="divider">-------------</tspan>
 <tspan x="390" y="95" class="cc">OS</tspan><tspan class="value">: Linux, MacOS</tspan>
-<tspan x="390" y="115" class="cc">Uptime</tspan><tspan class="value" id="age_data">: 26 years, 3 months, 27 days</tspan>
+<tspan x="390" y="115" class="cc">Uptime</tspan><tspan class="value" id="age_data">: 26 years, 3 months, 28 days</tspan>
 <tspan x="390" y="135" class="cc">Host</tspan><tspan class="value">: DECODE HQ d.o.o.</tspan>
 <tspan x="390" y="155" class="cc">Kernel</tspan><tspan class="value">: Software Engineer</tspan>
 <tspan x="390" y="175" class="cc">IDE</tspan><tspan class="value">: PyCharm 2025.2.0.1, Cursor 2.0.64</tspan>
