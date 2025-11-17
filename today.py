@@ -6,9 +6,20 @@ BIRTHDAY = date(year=1999, month=7, day=17)
 
 today = date.today()
 diff = relativedelta(today, BIRTHDAY)
-months_text = "months" if diff.months > 1 else "month"
-days_text = "days" if diff.days > 1 else "day"
-uptime_text = f"{diff.years} years, {diff.months} {months_text}, {diff.days} {days_text}"
+months_text = ""
+if diff.months > 1:
+    months_text = f", {diff.months} months"
+elif diff.months == 1:
+    months_text = f", {diff.months} month"
+
+days_text = ""
+if diff.days > 1:
+    days_text = f", {diff.days} days"
+elif diff.days == 1:
+    days_text = f", {diff.days} day"
+
+years_text = f"{diff.years} years"
+uptime_text = f"{years_text}{months_text}{days_text}"
 if diff.months == 0 and diff.days == 0:
     uptime_text += " 🥳"
 
